@@ -1,0 +1,7 @@
+input_string = "my name is rohit Handekar."
+
+# Remove whitespaces using str.replace()
+
+output_string = input_string.replace(" ", "")
+
+print(output_string)
