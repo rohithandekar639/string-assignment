@@ -1,0 +1,12 @@
+input_string = "This is a sample sentence containing a word."
+
+# Word to check for
+word_to_find = "word"
+
+# Check if the word is in the string
+
+if word_to_find in input_string:
+
+    print(f"The word '{word_to_find}' is in the string.")
+else:
+    print(f"The word '{word_to_find}' is not in the string.")
