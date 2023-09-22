@@ -1,0 +1,5 @@
+input_string = "ROHIT HANDEKAR!"
+
+uppercase_string = input_string.lower()
+
+print(uppercase_string)
