@@ -1,0 +1,11 @@
+input_string = "This is a sample sentence with a word. This word is a repeated word."
+
+# Word to find
+word_to_find = "word"
+
+index = input_string.find(word_to_find)
+
+if index != -1:
+    print(f"The word '{word_to_find}' starts at index {index}.")
+else:
+    print(f"The word '{word_to_find}' was not found in the string.")
