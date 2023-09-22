@@ -1,0 +1,8 @@
+# List of words
+word_list = ['This', 'is', 'a', 'sample', 'sentence.']
+
+# Join the list of words into a single string with spaces between them
+output_string = ' '.join(word_list)
+
+# Print the resulting string
+print(output_string)
