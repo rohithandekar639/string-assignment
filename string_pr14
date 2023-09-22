@@ -1,0 +1,8 @@
+input_string = "my name is rohit."
+
+# Split the string into a list of words
+word_list = input_string.split()
+
+# Print the list of words
+print(word_list)
+
