@@ -1,0 +1,12 @@
+input_string = "my name is rohit ashok handekar"
+
+# Word to find
+word_to_find = "handekar"
+
+index = input_string.rfind(word_to_find)
+
+if index != -1:
+
+    print(f"The last occurrence of '{word_to_find}' starts at index {index}.")
+else:
+    print(f"The word '{word_to_find}' was not found in the string.")
