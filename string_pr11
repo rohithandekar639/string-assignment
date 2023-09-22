@@ -1,0 +1,10 @@
+input_string = "This is a sample sentence with a word. This word is a repeated word."
+
+# Word to count
+word_to_count = "word"
+
+# Count the occurrences of the word in the string
+count = input_string.count(word_to_count)
+
+# Print the count
+print(f"The word '{word_to_count}' appears {count} times in the string.")
