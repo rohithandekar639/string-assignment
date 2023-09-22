@@ -1,0 +1,13 @@
+input_string = "This is a sample sentence containing a word."
+
+# Word to replace
+replace = "word"
+
+# Replacement word
+replacement_word = "phrase"
+
+# Replace the word in the string
+output_string = input_string.replace(replace, replacement_word)
+
+# Print the modified string
+print(output_string)
