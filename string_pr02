@@ -1,0 +1,3 @@
+input_string = "Hello, World!"
+uppercase_string = input_string.upper()
+print(uppercase_string)
