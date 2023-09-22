@@ -1,1 +1,18 @@
 
+input_string = input("Enter a string: ")
+
+# Define a variable to keep track of the consonant count
+consonant_count = 0
+
+# Define a set of vowels (both uppercase and lowercase)
+vowels = "AEIOUaeiou"
+
+for char in input_string:
+    if char.isalpha():
+    
+        if char not in vowels:
+            consonant_count += 1
+
+
+print("Number of consonants:", consonant_count)
+
