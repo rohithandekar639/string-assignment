@@ -1,0 +1,3 @@
+original_string = "hello world"
+title_case_string = original_string.title()
+print(title_case_string)
