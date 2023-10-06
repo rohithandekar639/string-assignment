@@ -1,0 +1,6 @@
+input_string = "Rohit"
+
+if input_string.isalpha():
+    print("The string contains only alphabetic characters.")
+else:
+    print("The string contains non-alphabetic characters.")
