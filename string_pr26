@@ -1,0 +1,15 @@
+def count_uppercase_letters(input_string):
+    # Initialize a counter for uppercase letters
+    count = 0
+
+
+    for char in input_string:
+        # Check if the character is an uppercase letter
+        if char.isupper():
+            count += 1
+
+    return count
+
+input_string = "PW Skill ."
+uppercase_count = count_uppercase_letters(input_string)
+print("Number of uppercase letters:", uppercase_count)
