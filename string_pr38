@@ -1,0 +1,6 @@
+input_string = "12345"
+
+if input_string.isdigit():
+    print("The string contains only digits.")
+else:
+    print("The string contains non-digit characters.")
