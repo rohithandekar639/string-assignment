@@ -1,0 +1,10 @@
+def swap_case(input_string):
+
+    swapped_string = input_string.swapcase()
+
+    return swapped_string
+
+# Example usage:
+input_string = "Hello World!"
+swapped_string = swap_case(input_string)
+print("Swapped string:", swapped_string)
