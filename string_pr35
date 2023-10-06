@@ -1,0 +1,8 @@
+from urllib.parse import urlparse
+
+url = "https://www.example.com/some/path"
+
+parsed_url = urlparse(url)
+protocol = parsed_url.scheme
+
+print("Protocol:", protocol)
