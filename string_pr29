@@ -1,0 +1,11 @@
+def remove_word(input_string, word_to_remove):
+
+    result_string = input_string.replace(word_to_remove, '')
+
+    return result_string
+
+# Example usage:
+input_string = "my name is rohit handekar"
+word_to_remove = "rohit"
+modified_string = remove_word(input_string, word_to_remove)
+print("Modified string:", modified_string)
