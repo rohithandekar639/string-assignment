@@ -1,0 +1,4 @@
+input_string = "Hello, World!"
+
+char_list = list(input_string)
+print(char_list)
