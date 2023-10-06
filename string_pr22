@@ -1,0 +1,6 @@
+string = "I am a python programmer"
+words = string.split()
+## reversing the words using reversed() function
+words = list(reversed(words))
+
+print(" ".join(words))
