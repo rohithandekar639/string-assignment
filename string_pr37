@@ -1,0 +1,10 @@
+import string
+
+# Input string with punctuation
+input_string = "Hello, World! This is an example string with punctuation."
+
+translator = str.maketrans('', '', string.punctuation)
+cleaned_string = input_string.translate(translator)
+
+# Print the string without punctuation
+print(cleaned_string)
