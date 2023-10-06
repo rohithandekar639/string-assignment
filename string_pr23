@@ -1,0 +1,11 @@
+
+def is_alphanumeric(input_string):
+    # Check if the string is alphanumeric
+    return input_string.isalnum()
+
+# Example usage:
+string1 = "Hello123"
+string2 = "Hello 123"
+
+print(is_alphanumeric(string1))  # True
+print(is_alphanumeric(string2))  # False
