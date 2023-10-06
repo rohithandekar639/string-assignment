@@ -1,0 +1,7 @@
+import re
+
+my_str = 'bobby   hadz  com'
+
+#  only covers spaces
+result = re.sub(' +', ' ', my_str)
+print(repr(result))  
