@@ -1,0 +1,8 @@
+inp_str = "Python465889rohit"
+
+print("Original String : " + inp_str)
+num = ""
+for c in inp_str:
+    if c.isdigit():
+        num = num + c
+print("Extracted numbers from the list : " + num)
